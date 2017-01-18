@@ -1,6 +1,6 @@
 # discgolf
 
-> A Vue.js project
+> A disc golf simulator based on work by http://discpath.haxor.fi/ .  Converting UI to vuejs
 
 ## Build Setup
 
