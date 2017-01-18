@@ -119,7 +119,7 @@ export default {
             "fanpower": '',
             "pathsshown": '',
             "liedistance": '',
-            "liecircle" : ''
+            "liecircle": ''
         }
     },
     props: ['speed', 'glide', 'turn', 'fade'],
@@ -195,7 +195,7 @@ export default {
         if (localStorage["power"]) this.power = localStorage["power"];
         if (localStorage["fan-power"]) this.fanpower = localStorage["fan-power"];
         if (localStorage["paths-shown"]) this.pathsshown = localStorage["paths-shown"];
-        if (localStorage["lie-distance"]) this.liedistance =  localStorage["lie-distance"];
+        if (localStorage["lie-distance"]) this.liedistance = localStorage["lie-distance"];
         if (localStorage["lie-circle"]) this.liecircle = localStorage["lie-circle"];
 
     }

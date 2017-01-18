@@ -18,6 +18,5 @@ export default {
 <style scoped>
 img {
     width: 100px;
-    
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
-  <div>
-      <select>
+<div>
+    <select>
         <option v-for='vendor in vendors'>{{vendor}}
         </option>
       </select>
-      <select>
+    <select>
         <option v-for='disc in discs'> {{disc.name}}
         </option>
       </select>
-  </div>
+</div>
 </template>
 <script>
 export default {
@@ -16,11 +16,25 @@ export default {
     data() {
         return {
             vendors: ['Prodigy', 'Innova', 'Vibram'],
-            discs: [
-              {vendor: 'Innova', name: 'Avatar', type: 'putter', material: 'Championship'},
-              {vendor: 'Innova', name: 'Destroyer', type: 'driver', material: 'Championship'},
-              {vendor: 'Vibram', name: 'Lace', type: 'driver', material: 'X-Stiff'}
-          ]
+            discs: [{
+                    vendor: 'Innova',
+                    name: 'Avatar',
+                    type: 'putter',
+                    material: 'Championship'
+                },
+                {
+                    vendor: 'Innova',
+                    name: 'Destroyer',
+                    type: 'driver',
+                    material: 'Championship'
+                },
+                {
+                    vendor: 'Vibram',
+                    name: 'Lace',
+                    type: 'driver',
+                    material: 'X-Stiff'
+                }
+            ]
         }
     }
 }
