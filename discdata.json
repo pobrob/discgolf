@@ -1,0 +1,1933 @@
+[{
+        "disc": "1080 Disc Golf Radius",
+        "data": "236;0;18;P"
+    }, {
+        "disc": "ABC Bee Line",
+        "data": "435;-52;39;D"
+    }, {
+        "disc": "ABC Flying Squirrel",
+        "data": "295;-55;18;M"
+    }, {
+        "disc": "ABC Gamma Ray",
+        "data": "401;-39;39;D"
+    }, {
+        "disc": "ABC Money",
+        "data": "246;-6;33;P"
+    }, {
+        "disc": "ABC Secret Weapon",
+        "data": "379;-51;35;D"
+    }, {
+        "disc": "ABC The Mission",
+        "data": "288;-18;33;M"
+    }, {
+        "disc": "Aerobie Arrow",
+        "data": "239;0;45;P"
+    },
+    {
+        "disc": "Aerobie Epic",
+        "data": "367;-38;76;D"
+    }, {
+        "disc": "Aerobie Sharpshooter #1",
+        "data": "309;0;56;F"
+    }, {
+        "disc": "Aerobie Sharpshooter #2",
+        "data": "263;0;54;M"
+    }, {
+        "disc": "Aerobie Sharpshooter #3",
+        "data": "238;0;54;P"
+    }, {
+        "disc": "Axiom Alias",
+        "data": "280;-13;13;M"
+    },
+    {
+        "disc": "Axiom Clash",
+        "data": "310;-18;56;F"
+    }, {
+        "disc": "Axiom Crave",
+        "data": "342;-21;30;F"
+    }, {
+        "disc": "Axiom Envy",
+        "data": "245;0;30;P"
+    }, {
+        "disc": "Axiom Insanity",
+        "data": "383;-58;19;D"
+    }, {
+        "disc": "Axiom Inspire",
+        "data": "344;-49;34;F"
+    },
+    {
+        "disc": "Axiom Proxy",
+        "data": "260;-18;18;P"
+    }, {
+        "disc": "Axiom Theory",
+        "data": "288;-40;12;M"
+    }, {
+        "disc": "Black Jax Sports Axe",
+        "data": "338;0;66;F"
+    }, {
+        "disc": "Black Jax Sports Midknight",
+        "data": "276;-36;27;F"
+    }, {
+        "disc": "Black Jax Sports PinDRAGON",
+        "data": "241;-45;27;M"
+    },
+    {
+        "disc": "CHING Bomb",
+        "data": "325;-14;47;F"
+    }, {
+        "disc": "CHING Genesis",
+        "data": "404;-3;58;D"
+    }, {
+        "disc": "CHING Juju",
+        "data": "256;-18;18;P"
+    }, {
+        "disc": "CHING Legacy",
+        "data": "279;-18;36;M"
+    }, {
+        "disc": "CHING Oracle",
+        "data": "279;-18;32;M"
+    },
+    {
+        "disc": "CHING Precision",
+        "data": "292;-21;34;M"
+    }, {
+        "disc": "CHING Sniper",
+        "data": "295;0;37;M"
+    }, {
+        "disc": "CHING Tank (Original)",
+        "data": "240;0;36;P"
+    }, {
+        "disc": "CHING Velocity",
+        "data": "346;-34;38;F"
+    }, {
+        "disc": "Crosslap Credo",
+        "data": "253;0;54;P"
+    },
+    {
+        "disc": "Crosslap Lucky",
+        "data": "297;-37;18;M"
+    }, {
+        "disc": "Daredevil Beaver",
+        "data": "243;-9;31;P"
+    }, {
+        "disc": "Daredevil Big Foot",
+        "data": "438;-39;39;D"
+    }, {
+        "disc": "Daredevil Buffalo",
+        "data": "359;-19;95;D"
+    }, {
+        "disc": "Daredevil Caribou",
+        "data": "280;-36;27;M"
+    },
+    {
+        "disc": "Daredevil Grizzly",
+        "data": "280;-13;36;M"
+    }, {
+        "disc": "Daredevil Mammoth",
+        "data": "362;-19;95;D"
+    }, {
+        "disc": "Daredevil Moose",
+        "data": "283;0;36;M"
+    }, {
+        "disc": "Daredevil Ogopogo",
+        "data": "359;-38;95;D"
+    }, {
+        "disc": "Daredevil Polar Bear",
+        "data": "243;-18;18;P"
+    },
+    {
+        "disc": "Daredevil Sabertooth",
+        "data": "361;0;95;D"
+    }, {
+        "disc": "Daredevil Sasquatch",
+        "data": "433;-98;19;D"
+    }, {
+        "disc": "Daredevil Swift Fox",
+        "data": "367;-48;38;F"
+    }, {
+        "disc": "Daredevil Timberwolf",
+        "data": "360;-9;25;F"
+    }, {
+        "disc": "Daredevil Wolverine",
+        "data": "363;-15;51;F"
+    },
+    {
+        "disc": "Daredevil Woodchuck",
+        "data": "243;-24;18;P"
+    }, {
+        "disc": "Daredevil Yeti",
+        "data": "438;-59;19;D"
+    }, {
+        "disc": "Deity Discs Chimera",
+        "data": "401;-39;48;D"
+    }, {
+        "disc": "Destiny Discs Super Puppy",
+        "data": "236;-36;18;P"
+    }, {
+        "disc": "DGA Aftershock",
+        "data": "283;-4;36;M"
+    },
+    {
+        "disc": "DGA Blowfly II",
+        "data": "241;-27;22;P"
+    }, {
+        "disc": "DGA Blowfly",
+        "data": "244;-13;36;P"
+    }, {
+        "disc": "DGA Blunt Driver",
+        "data": "260;-18;36;P"
+    }, {
+        "disc": "DGA Blunt Gumbputt",
+        "data": "253;-12;24;P"
+    }, {
+        "disc": "DGA Breaker",
+        "data": "255;0;47;P"
+    },
+    {
+        "disc": "DGA Flathead Cyclone",
+        "data": "331;-18;37;F"
+    }, {
+        "disc": "DGA GlowFly",
+        "data": "236;-18;36;P"
+    }, {
+        "disc": "DGA Hurricane",
+        "data": "431;-19;46;D"
+    }, {
+        "disc": "DGA Powerdrive Gumbputt",
+        "data": "264;-30;18;P"
+    }, {
+        "disc": "DGA Reef",
+        "data": "242;-22;22;P"
+    },
+    {
+        "disc": "DGA Riptide",
+        "data": "381;-6;58;D"
+    }, {
+        "disc": "DGA Rogue",
+        "data": "408;-19;48;D"
+    }, {
+        "disc": "DGA Shockwave",
+        "data": "279;-2;48;M"
+    }, {
+        "disc": "DGA Squall",
+        "data": "299;-18;25;M"
+    }, {
+        "disc": "DGA Steady",
+        "data": "242;0;36;P"
+    },
+    {
+        "disc": "DGA Titanic",
+        "data": "244;0;36;P"
+    }, {
+        "disc": "DGA Torrent",
+        "data": "453;-29;55;D"
+    }, {
+        "disc": "DGA Tsunami",
+        "data": "383;0;70;D"
+    }, {
+        "disc": "DGA Undertow",
+        "data": "364;-31;28;F"
+    }, {
+        "disc": "DGA XL-Superdrive",
+        "data": "347;-19;28;F"
+    },
+    {
+        "disc": "Disc Golf Aotearoa Arcturus",
+        "data": "303;-27;27;F"
+    }, {
+        "disc": "Disc Golf Aotearoa Atomic Raptor X",
+        "data": "396;-4;58;D"
+    }, {
+        "disc": "Disc Golf Aotearoa Rippa",
+        "data": "238;-36;0;P"
+    }, {
+        "disc": "Disc Golf Aotearoa Te Moko",
+        "data": "256;0;22;M"
+    }, {
+        "disc": "Disc Golf Aotearoa Tui",
+        "data": "277;-36;18;F"
+    },
+    {
+        "disc": "Discmania CD2",
+        "data": "368;-19;38;D"
+    }, {
+        "disc": "Discmania CD Craze",
+        "data": "387;-15;42;D"
+    }, {
+        "disc": "Discmania DD2 Frenzy",
+        "data": "443;-37;47;D"
+    }, {
+        "disc": "Discmania DD Hysteria",
+        "data": "418;-2;46;D"
+    }, {
+        "disc": "Discmania FD2",
+        "data": "331;0;44;F"
+    },
+    {
+        "disc": "Discmania FD Jackal",
+        "data": "362;-19;28;F"
+    }, {
+        "disc": "Discmania GM Gremlin",
+        "data": "308;-7;35;M"
+    }, {
+        "disc": "Discmania MD1",
+        "data": "284;0;39;M"
+    }, {
+        "disc": "Discmania MD2 Fiend",
+        "data": "286;-6;32;M"
+    }, {
+        "disc": "Discmania MD3",
+        "data": "299;0;55;M"
+    },
+    {
+        "disc": "Discmania P1 Maniac",
+        "data": "248;-4;6;P"
+    }, {
+        "disc": "Discmania P1x",
+        "data": "242;-2;4;P"
+    }, {
+        "disc": "Discmania P2 Psycho",
+        "data": "248;0;20;P"
+    }, {
+        "disc": "Discmania P3",
+        "data": "257;0;50;P"
+    }, {
+        "disc": "Discmania PD2 Chaos",
+        "data": "428;-2;76;D"
+    },
+    {
+        "disc": "Discmania PD Freak",
+        "data": "393;-4;55;D"
+    }, {
+        "disc": "Discmania TD2 Fever",
+        "data": "403;-68;29;D"
+    }, {
+        "disc": "Discmania TD Rush",
+        "data": "385;-38;24;D"
+    }, {
+        "disc": "Discraft APX",
+        "data": "240;-24;12;P"
+    }, {
+        "disc": "Discraft Avenger",
+        "data": "394;-3;61;D"
+    },
+    {
+        "disc": "Discraft Avenger SS",
+        "data": "381;-58;25;D"
+    }, {
+        "disc": "Discraft Banger-GT",
+        "data": "246;0;21;P"
+    }, {
+        "disc": "Discraft Breeze",
+        "data": "269;-32;18;M"
+    }, {
+        "disc": "Discraft Buzzz-GT",
+        "data": "290;-13;23;M"
+    }, {
+        "disc": "Discraft Buzzz",
+        "data": "293;-18;24;M"
+    },
+    {
+        "disc": "Discraft Buzzz OS",
+        "data": "294;0;55;M"
+    }, {
+        "disc": "Discraft Buzzz SS",
+        "data": "292;-30;21;M"
+    }, {
+        "disc": "Discraft Challenger",
+        "data": "245;0;36;P"
+    }, {
+        "disc": "Discraft Comet",
+        "data": "281;-33;21;M"
+    }, {
+        "disc": "Discraft Crank",
+        "data": "436;-29;48;D"
+    },
+    {
+        "disc": "Discraft Crush",
+        "data": "406;-3;74;D"
+    }, {
+        "disc": "Discraft Cyclone 2",
+        "data": "349;-38;19;F"
+    }, {
+        "disc": "Discraft Cyclone",
+        "data": "333;-18;56;F"
+    }, {
+        "disc": "Discraft Drone",
+        "data": "284;6;73;M"
+    }, {
+        "disc": "Discraft Eclipse",
+        "data": "322;-37;43;F"
+    },
+    {
+        "disc": "Discraft Flash",
+        "data": "393;-35;58;D"
+    }, {
+        "disc": "Discraft Flick",
+        "data": "379;19;77;D"
+    }, {
+        "disc": "Discraft Focus",
+        "data": "242;-15;33;P"
+    }, {
+        "disc": "Discraft Force",
+        "data": "431;0;79;D"
+    }, {
+        "disc": "Discraft Glide",
+        "data": "317;-53;15;F"
+    },
+    {
+        "disc": "Discraft Hawkeye",
+        "data": "271;-27;39;M"
+    }, {
+        "disc": "Discraft Hawk",
+        "data": "278;-33;36;M"
+    }, {
+        "disc": "Discraft Heat",
+        "data": "352;-66;16;D"
+    }, {
+        "disc": "Discraft Hornet",
+        "data": "295;0;68;M"
+    }, {
+        "disc": "Discraft Impact",
+        "data": "314;-31;40;M"
+    },
+    {
+        "disc": "Discraft Magnet",
+        "data": "242;-18;33;P"
+    }, {
+        "disc": "Discraft Mantis",
+        "data": "351;-23;34;F"
+    }, {
+        "disc": "Discraft Marauder",
+        "data": "305;-9;28;F"
+    }, {
+        "disc": "Discraft Meteor",
+        "data": "282;-49;24;M"
+    }, {
+        "disc": "Discraft MRV",
+        "data": "276;-18;46;M"
+    },
+    {
+        "disc": "Discraft MRX",
+        "data": "285;-10;46;M"
+    }, {
+        "disc": "Discraft Nebula",
+        "data": "280;-9;36;M"
+    }, {
+        "disc": "Discraft Nuke",
+        "data": "440;-19;56;D"
+    }, {
+        "disc": "Discraft Nuke OS",
+        "data": "427;0;82;D"
+    }, {
+        "disc": "Discraft Nuke SS",
+        "data": "438;-59;52;D"
+    },
+    {
+        "disc": "Discraft Predator",
+        "data": "368;6;76;F"
+    }, {
+        "disc": "Discraft Pulse",
+        "data": "419;0;68;D"
+    }, {
+        "disc": "Discraft Putt r",
+        "data": "239;-30;12;P"
+    }, {
+        "disc": "Discraft Rattler",
+        "data": "240;-18;18;P"
+    }, {
+        "disc": "Discraft Reaper",
+        "data": "346;0;76;F"
+    },
+    {
+        "disc": "Discraft Ringer",
+        "data": "268;0;36;P"
+    }, {
+        "disc": "Discraft Shadow Extra",
+        "data": "282;-35;19;F"
+    }, {
+        "disc": "Discraft Shadow",
+        "data": "282;-36;18;F"
+    }, {
+        "disc": "Discraft Slipstream-GT",
+        "data": "367;-38;52;F"
+    }, {
+        "disc": "Discraft Spectra",
+        "data": "404;-45;55;D"
+    },
+    {
+        "disc": "Discraft Stalker",
+        "data": "355;-15;25;F"
+    }, {
+        "disc": "Discraft Storm",
+        "data": "337;0;56;F"
+    }, {
+        "disc": "Discraft Stratus",
+        "data": "299;-55;18;M"
+    }, {
+        "disc": "Discraft Surge",
+        "data": "406;-19;61;D"
+    }, {
+        "disc": "Discraft Surge SS",
+        "data": "407;-22;45;D"
+    },
+    {
+        "disc": "Discraft Talon",
+        "data": "368;19;57;F"
+    }, {
+        "disc": "Discraft Tracer",
+        "data": "311;-17;24;F"
+    }, {
+        "disc": "Discraft Tracker",
+        "data": "358;-19;57;F"
+    }, {
+        "disc": "Discraft Typhoon",
+        "data": "294;-4;55;F"
+    }, {
+        "disc": "Discraft Venom",
+        "data": "392;0;77;D"
+    },
+    {
+        "disc": "Discraft Vortex",
+        "data": "288;0;46;F"
+    }, {
+        "disc": "Discraft Wasp",
+        "data": "293;0;55;M"
+    }, {
+        "disc": "Discraft Wildcat",
+        "data": "391;-38;58;D"
+    }, {
+        "disc": "Discraft X2",
+        "data": "339;-11;59;F"
+    }, {
+        "disc": "Discraft X-Clone",
+        "data": "334;18;75;F"
+    },
+    {
+        "disc": "Discraft XL",
+        "data": "344;-25;47;F"
+    }, {
+        "disc": "Discraft Xpress",
+        "data": "347;-50;22;F"
+    }, {
+        "disc": "Discraft XS",
+        "data": "356;-28;54;F"
+    }, {
+        "disc": "Discraft Xtra",
+        "data": "362;-11;74;F"
+    }, {
+        "disc": "Discraft Xtreme",
+        "data": "320;10;83;F"
+    },
+    {
+        "disc": "Discraft Zeppelin",
+        "data": "252;-22;11;P"
+    }, {
+        "disc": "Discraft Zombee",
+        "data": "326;-22;29;F"
+    }, {
+        "disc": "Discraft Zone",
+        "data": "274;0;55;P"
+    }, {
+        "disc": "Discwing Crosshair",
+        "data": "242;-33;18;P"
+    }, {
+        "disc": "Discwing Quarter K",
+        "data": "405;0;74;D"
+    },
+    {
+        "disc": "Discwing Quarter K II",
+        "data": "417;-26;49;D"
+    }, {
+        "disc": "Discwing Transcend",
+        "data": "281;-39;18;M"
+    }, {
+        "disc": "DKG Boom",
+        "data": "421;-19;59;D"
+    }, {
+        "disc": "DKG Hail Mary",
+        "data": "344;-19;38;D"
+    }, {
+        "disc": "DKG Kraken",
+        "data": "420;-59;59;D"
+    },
+    {
+        "disc": "DKG Merc",
+        "data": "421;0;78;D"
+    }, {
+        "disc": "DKG Miracle",
+        "data": "307;-93;37;F"
+    }, {
+        "disc": "DKG Protege",
+        "data": "420;-78;39;D"
+    }, {
+        "disc": "DKG Tempest",
+        "data": "421;-39;59;D"
+    }, {
+        "disc": "DKG Wing and a Prayer",
+        "data": "326;-56;18;F"
+    },
+    {
+        "disc": "Dynamic Discs Breakout",
+        "data": "350;-19;28;F"
+    }, {
+        "disc": "Dynamic Discs Enforcer",
+        "data": "414;6;78;D"
+    }, {
+        "disc": "Dynamic Discs Escape",
+        "data": "373;-19;43;F"
+    }, {
+        "disc": "Dynamic Discs Felon",
+        "data": "361;4;76;D"
+    }, {
+        "disc": "Dynamic Discs Freedom",
+        "data": "451;-39;59;D"
+    },
+    {
+        "disc": "Dynamic Discs Fugitive",
+        "data": "299;-16;32;M"
+    }, {
+        "disc": "Dynamic Discs Judge",
+        "data": "250;-9;18;P"
+    }, {
+        "disc": "Dynamic Discs Justice",
+        "data": "290;9;74;M"
+    }, {
+        "disc": "Dynamic Discs Renegade",
+        "data": "418;-36;58;D"
+    }, {
+        "disc": "Dynamic Discs Suspect",
+        "data": "272;0;52;M"
+    },
+    {
+        "disc": "Dynamic Discs Thief",
+        "data": "353;-9;38;F"
+    }, {
+        "disc": "Dynamic Discs Trespass",
+        "data": "431;-14;56;D"
+    }, {
+        "disc": "Dynamic Discs Truth",
+        "data": "305;-2;37;M"
+    }, {
+        "disc": "Dynamic Discs Verdict",
+        "data": "289;0;60;M"
+    }, {
+        "disc": "Dynamic Discs Warden",
+        "data": "254;-1;20;P"
+    },
+    {
+        "disc": "Dynamic Discs Witness",
+        "data": "358;-53;25;F"
+    }, {
+        "disc": "EMSCO Group ESP Driver",
+        "data": "312;-41;29;F"
+    }, {
+        "disc": "EMSCO Group ESP Midrange",
+        "data": "294;-39;27;M"
+    }, {
+        "disc": "EMSCO Group ESP Putter",
+        "data": "251;-45;18;P"
+    }, {
+        "disc": "Essential Discs Honey",
+        "data": "277;0;42;M"
+    },
+    {
+        "disc": "Eurodisc Delivery",
+        "data": "242;0;4;P"
+    }, {
+        "disc": "Eurodisc Transition",
+        "data": "299;0;18;M"
+    }, {
+        "disc": "Eurodisc Transporter",
+        "data": "335;-37;18;F"
+    }, {
+        "disc": "Fly-by-nite The Bat",
+        "data": "275;-36;46;F"
+    }, {
+        "disc": "Fly-by-nite The Owl",
+        "data": "279;-18;46;F"
+    },
+    {
+        "disc": "Fly High Discs AK-47",
+        "data": "261;0;18;P"
+    }, {
+        "disc": "Fly High Discs Diesel",
+        "data": "401;0;58;D"
+    }, {
+        "disc": "Fly High Discs Jack the Ripper",
+        "data": "368;0;19;F"
+    }, {
+        "disc": "Fly High Discs KGB",
+        "data": "298;-18;18;M"
+    }, {
+        "disc": "Fly High Discs Pure O.G.",
+        "data": "311;-18;37;M"
+    },
+    {
+        "disc": "Fly High Discs Train Wreck",
+        "data": "435;-39;39;D"
+    }, {
+        "disc": "Fly High Discs White Widow",
+        "data": "261;-18;0;P"
+    }, {
+        "disc": "Gateway Apache",
+        "data": "379;-24;43;F"
+    }, {
+        "disc": "Gateway Assassin",
+        "data": "384;-31;29;D"
+    }, {
+        "disc": "Gateway Blast DT",
+        "data": "402;19;87;D"
+    },
+    {
+        "disc": "Gateway Blaze",
+        "data": "334;-4;61;F"
+    }, {
+        "disc": "Gateway Blurr",
+        "data": "396;-9;53;D"
+    }, {
+        "disc": "Gateway Chief",
+        "data": "271;0;16;P"
+    }, {
+        "disc": "Gateway Demon",
+        "data": "301;9;69;M"
+    }, {
+        "disc": "Gateway Devil Hawk",
+        "data": "298;0;37;M"
+    },
+    {
+        "disc": "Gateway Diablo DT",
+        "data": "424;-14;61;D"
+    }, {
+        "disc": "Gateway Element",
+        "data": "302;-27;23;M"
+    }, {
+        "disc": "Gateway Element-X",
+        "data": "288;-23;50;M"
+    }, {
+        "disc": "Gateway Hybrid",
+        "data": "344;-9;57;F"
+    }, {
+        "disc": "Gateway Illusion",
+        "data": "406;-17;61;D"
+    },
+    {
+        "disc": "Gateway Karma",
+        "data": "310;-12;43;M"
+    }, {
+        "disc": "Gateway Magic",
+        "data": "258;-22;4;P"
+    }, {
+        "disc": "Gateway Mystic",
+        "data": "300;-34;27;M"
+    }, {
+        "disc": "Gateway Ninja",
+        "data": "447;-19;46;D"
+    }, {
+        "disc": "Gateway Rage",
+        "data": "397;-9;68;D"
+    },
+    {
+        "disc": "Gateway Sabre",
+        "data": "347;-14;23;F"
+    }, {
+        "disc": "Gateway Samurai",
+        "data": "440;-32;42;D"
+    }, {
+        "disc": "Gateway Savage",
+        "data": "383;-6;58;D"
+    }, {
+        "disc": "Gateway Scout",
+        "data": "330;-9;28;M"
+    }, {
+        "disc": "Gateway Shaman",
+        "data": "274;-36;0;P"
+    }, {
+        "disc": "Gateway Slayer",
+        "data": "442;-34;44;D"
+    }, {
+        "disc": "Gateway Speed Demon",
+        "data": "390;-6;80;D"
+    }, {
+        "disc": "Gateway Spirit",
+        "data": "392;14;87;D"
+    }, {
+        "disc": "Gateway Voodoo",
+        "data": "270;-4;18;P"
+    }, {
+        "disc": "Gateway Warlock",
+        "data": "262;-11;29;P"
+    }, {
+        "disc": "Gateway Warrior",
+        "data": "304;-9;51;M"
+    }, {
+        "disc": "Gateway War Spear",
+        "data": "296;0;74;M"
+    }, {
+        "disc": "Gateway Wizard",
+        "data": "261;0;31;P"
+    }, {
+        "disc": "GGGT Maximizer",
+        "data": "330;-56;9;F"
+    }, {
+        "disc": "GGGT Optimizer",
+        "data": "277;-55;0;M"
+    }, {
+        "disc": "Hole 19 All in One",
+        "data": "262;-36;18;P"
+    }, {
+        "disc": "Hyzer Bomb Mortar",
+        "data": "290;0;55;M"
+    }, {
+        "disc": "Hyzer Bomb Panzer Tank",
+        "data": "242;0;47;P"
+    }, {
+        "disc": "Hyzer Bomb Tank",
+        "data": "236;0;36;P"
+    }, {
+        "disc": "Hyzer Bomb Veteran",
+        "data": "331;0;18;F"
+    }, {
+        "disc": "Innova Ace",
+        "data": "287;-30;24;P"
+    }, {
+        "disc": "Innova Aero",
+        "data": "267;-4;0;P"
+    }, {
+        "disc": "Innova Ape",
+        "data": "434;0;81;D"
+    }, {
+        "disc": "Innova Archangel",
+        "data": "359;-71;28;F"
+    }, {
+        "disc": "Innova Archon",
+        "data": "416;-39;44;D"
+    }, {
+        "disc": "Innova Atlas",
+        "data": "299;-2;20;M"
+    }, {
+        "disc": "Innova Aviar Big Bead Driver",
+        "data": "247;0;36;P"
+    }, {
+        "disc": "Innova Aviar Classic",
+        "data": "246;-1;1;P"
+    }, {
+        "disc": "Innova Aviar Putt and Approach",
+        "data": "247;-4;20;P"
+    }, {
+        "disc": "Innova Banshee",
+        "data": "334;4;61;F"
+    }, {
+        "disc": "Innova Barracuda",
+        "data": "292;-37;55;M"
+    }, {
+        "disc": "Innova Beast",
+        "data": "393;-38;38;D"
+    }, {
+        "disc": "Innova Beast (Original)",
+        "data": "404;-19;58;D"
+    }, {
+        "disc": "Innova Birdie",
+        "data": "230;-9;2;P"
+    }, {
+        "disc": "Innova Boss",
+        "data": "443;-14;64;D"
+    }, {
+        "disc": "Innova Bulldog",
+        "data": "262;0;45;M"
+    }, {
+        "disc": "Innova Cheetah",
+        "data": "322;-37;39;F"
+    }, {
+        "disc": "Innova Classic Ace",
+        "data": "255;-36;36;P"
+    }, {
+        "disc": "Innova Classic Cobra",
+        "data": "296;-37;37;M"
+    }, {
+        "disc": "Innova Classic Roc",
+        "data": "263;-9;36;P"
+    }, {
+        "disc": "Innova Cobra",
+        "data": "290;-37;41;M"
+    }, {
+        "disc": "Innova Condor",
+        "data": "275;-9;46;M"
+    }, {
+        "disc": "Innova Coupe",
+        "data": "257;-18;18;P"
+    }, {
+        "disc": "Innova Coyote",
+        "data": "286;-11;18;M"
+    }, {
+        "disc": "Innova Cro",
+        "data": "295;0;41;M"
+    }, {
+        "disc": "Innova Daedalus",
+        "data": "442;-64;46;D"
+    }, {
+        "disc": "Innova Dart",
+        "data": "264;-2;4;P"
+    }, {
+        "disc": "Innova Destroyer",
+        "data": "430;-19;61;D"
+    }, {
+        "disc": "Innova Dolphin",
+        "data": "273;-36;36;F"
+    }, {
+        "disc": "Innova Dominator",
+        "data": "444;-24;39;D"
+    }, {
+        "disc": "Innova Dragon",
+        "data": "359;-38;40;D"
+    }, {
+        "disc": "Innova Eagle",
+        "data": "343;-16;57;F"
+    }, {
+        "disc": "Innova Eagle-L (EL)",
+        "data": "348;-23;42;F"
+    }, {
+        "disc": "Innova EDGE Polecat",
+        "data": "224;-4;4;P"
+    }, {
+        "disc": "Innova Firebird",
+        "data": "359;2;76;D"
+    }, {
+        "disc": "Innova Firebird-L (FL)",
+        "data": "361;0;47;D"
+    }, {
+        "disc": "Innova Foxbat",
+        "data": "291;-27;6;M"
+    }, {
+        "disc": "Innova Gator",
+        "data": "287;0;55;M"
+    }, {
+        "disc": "Innova Gazelle",
+        "data": "324;-4;37;F"
+    }, {
+        "disc": "Innova Goblin",
+        "data": "273;-4;22;M"
+    }, {
+        "disc": "Innova Gopher",
+        "data": "224;0;17;P"
+    }, {
+        "disc": "Innova Griffin",
+        "data": "290;18;55;M"
+    }, {
+        "disc": "Innova Groove",
+        "data": "445;-34;44;D"
+    }, {
+        "disc": "Innova Hammer",
+        "data": "258;-18;36;P"
+    }, {
+        "disc": "Innova Hydra",
+        "data": "260;0;36;M"
+    }, {
+        "disc": "Innova Jaguar",
+        "data": "287;-52;37;M"
+    }, {
+        "disc": "Innova JK Pro Aviar-X",
+        "data": "244;0;36;P"
+    }, {
+        "disc": "Innova Katana",
+        "data": "441;-54;59;D"
+    }, {
+        "disc": "Innova KC Pro Aviar",
+        "data": "244;0;36;P"
+    }, {
+        "disc": "Innova King Cobra",
+        "data": "284;-6;40;M"
+    }, {
+        "disc": "Innova Kite",
+        "data": "304;-53;21;M"
+    }, {
+        "disc": "Innova Krait",
+        "data": "417;-19;41;D"
+    }, {
+        "disc": "Innova Leopard",
+        "data": "325;-37;18;F"
+    }, {
+        "disc": "Innova Lycan",
+        "data": "287;-2;20;M"
+    }, {
+        "disc": "Innova Lynx",
+        "data": "266;0;36;M"
+    }, {
+        "disc": "Innova Mako3",
+        "data": "293;0;4;M"
+    }, {
+        "disc": "Innova Mako",
+        "data": "288;0;6;M"
+    }, {
+        "disc": "Innova Mamba",
+        "data": "416;-88;27;D"
+    }, {
+        "disc": "Innova Max",
+        "data": "394;0;97;D"
+    }, {
+        "disc": "Innova McPro Aviar",
+        "data": "242;0;36;P"
+    }, {
+        "disc": "Innova Mirage",
+        "data": "241;-6;12;P"
+    }, {
+        "disc": "Innova Monarch",
+        "data": "403;-70;26;D"
+    }, {
+        "disc": "Innova Monster",
+        "data": "372;0;91;D"
+    }, {
+        "disc": "Innova Moray",
+        "data": "278;0;36;M"
+    }, {
+        "disc": "Innova Nova",
+        "data": "246;-3;9;P"
+    }, {
+        "disc": "Innova Orc",
+        "data": "391;-21;60;D"
+    }, {
+        "disc": "Innova Panther",
+        "data": "302;-34;20;M"
+    },
+    {
+        "disc": "Innova Pegasus",
+        "data": "310;18;56;F"
+    }, {
+        "disc": "Innova Phantom Deuce",
+        "data": "254;-36;18;M"
+    }, {
+        "disc": "Innova Phenix",
+        "data": "299;0;74;F"
+    }, {
+        "disc": "Innova Pig",
+        "data": "254;4;56;P"
+    }, {
+        "disc": "Innova Piranha",
+        "data": "219;17;35;P"
+    }, {
+        "disc": "Innova Polecat",
+        "data": "233;-9;0;P"
+    }, {
+        "disc": "Innova Puma",
+        "data": "275;-18;18;M"
+    }, {
+        "disc": "Innova Python",
+        "data": "311;-18;37;M"
+    }, {
+        "disc": "Innova Ram",
+        "data": "309;18;74;F"
+    }, {
+        "disc": "Innova Raptor",
+        "data": "385;-43;43;D"
+    }, {
+        "disc": "Innova Raven",
+        "data": "313;-28;46;F"
+    }, {
+        "disc": "Innova Rhyno",
+        "data": "241;0;54;P"
+    }, {
+        "disc": "Innova Roadrunner",
+        "data": "379;-70;19;D"
+    }, {
+        "disc": "Innova Roc3",
+        "data": "293;-3;55;M"
+    }, {
+        "disc": "Innova Roc",
+        "data": "286;-1;52;M"
+    }, {
+        "disc": "Innova Scorpion",
+        "data": "297;-18;37;M"
+    }, {
+        "disc": "Innova Shark3",
+        "data": "294;0;40;M"
+    }, {
+        "disc": "Innova Shark",
+        "data": "283;-4;36;M"
+    }, {
+        "disc": "Innova Sidewinder",
+        "data": "379;-55;24;D"
+    }, {
+        "disc": "Innova Skeeter",
+        "data": "305;-21;23;M"
+    },
+    {
+        "disc": "Innova Sonic",
+        "data": "227;-67;2;P"
+    }, {
+        "disc": "Innova Spider",
+        "data": "295;-9;23;M"
+    }, {
+        "disc": "Innova Starfire",
+        "data": "393;0;60;D"
+    }, {
+        "disc": "Innova Starfire-L (SL)",
+        "data": "395;-19;43;D"
+    }, {
+        "disc": "Innova Stingray",
+        "data": "290;-53;23;M"
+    },
+    {
+        "disc": "Innova Super Stingray",
+        "data": "286;-25;23;M"
+    }, {
+        "disc": "Innova T3",
+        "data": "329;0;47;F"
+    }, {
+        "disc": "Innova Teebird",
+        "data": "347;0;40;F"
+    }, {
+        "disc": "Innova Teebird-L (TL)",
+        "data": "348;-4;23;F"
+    }, {
+        "disc": "Innova TeeDevil",
+        "data": "431;-22;44;D"
+    },
+    {
+        "disc": "Innova TeeRex",
+        "data": "416;0;81;D"
+    }, {
+        "disc": "Innova TeeRex-X",
+        "data": "400;0;78;D"
+    }, {
+        "disc": "Innova Tern",
+        "data": "431;-52;46;D"
+    }, {
+        "disc": "Innova Thunderbird",
+        "data": "369;-2;36;F"
+    }, {
+        "disc": "Innova TL3",
+        "data": "350;-1;19;F"
+    },
+    {
+        "disc": "Innova Valkyrie",
+        "data": "378;-38;43;D"
+    }, {
+        "disc": "Innova Viking",
+        "data": "379;-21;41;D"
+    }, {
+        "disc": "Innova Viper",
+        "data": "320;23;94;F"
+    }, {
+        "disc": "Innova VRoc",
+        "data": "278;0;36;M"
+    }, {
+        "disc": "Innova Vulcan",
+        "data": "441;-72;47;D"
+    },
+    {
+        "disc": "Innova Wahoo",
+        "data": "432;-39;44;D"
+    }, {
+        "disc": "Innova Wedge",
+        "data": "269;-45;18;P"
+    }, {
+        "disc": "Innova Whale",
+        "data": "241;0;6;P"
+    }, {
+        "disc": "Innova Whippet",
+        "data": "311;23;88;F"
+    }, {
+        "disc": "Innova Whippet-X",
+        "data": "305;18;93;F"
+    },
+    {
+        "disc": "Innova Wolf",
+        "data": "279;-64;23;M"
+    }, {
+        "disc": "Innova Wombat",
+        "data": "302;-18;0;M"
+    }, {
+        "disc": "Innova Wraith",
+        "data": "416;-19;61;D"
+    }, {
+        "disc": "Innova Xcaliber",
+        "data": "420;2;81;D"
+    }, {
+        "disc": "Innova XD",
+        "data": "266;-22;18;P"
+    },
+    {
+        "disc": "Innova Yeti Pro Aviar",
+        "data": "247;-2;24;P"
+    }, {
+        "disc": "Innova Zephyr",
+        "data": "264;-9;4;M"
+    }, {
+        "disc": "Kastaplast Berg",
+        "data": "217;0;35;P"
+    }, {
+        "disc": "Kastaplast Kaxe",
+        "data": "304;0;41;M"
+    }, {
+        "disc": "Kastaplast Kaxe Z",
+        "data": "305;-9;18;M"
+    },
+    {
+        "disc": "Kastaplast Rask",
+        "data": "401;2;80;D"
+    }, {
+        "disc": "Latitude 64 Ballista",
+        "data": "449;-9;79;D"
+    }, {
+        "disc": "Latitude 64 Blitz",
+        "data": "426;0;78;D"
+    }, {
+        "disc": "Latitude 64 Bolt",
+        "data": "444;-39;59;D"
+    }, {
+        "disc": "Latitude 64 Claymore",
+        "data": "288;-13;18;M"
+    },
+    {
+        "disc": "Latitude 64 Core",
+        "data": "300;-16;23;M"
+    }, {
+        "disc": "Latitude 64 Dagger",
+        "data": "243;0;36;P"
+    },
+    {
+        "disc": "Latitude 64 Diamond",
+        "data": "352;-52;23;F"
+    }, {
+        "disc": "Latitude 64 Flow",
+        "data": "419;-27;41;D"
+    }, {
+        "disc": "Latitude 64 Fury",
+        "data": "367;-36;30;D"
+    }, {
+        "disc": "Latitude 64 Fuse",
+        "data": "300;-34;20;M"
+    }, {
+        "disc": "Latitude 64 Halo",
+        "data": "444;-2;64;D"
+    },
+    {
+        "disc": "Latitude 64 Havoc",
+        "data": "442;-27;59;D"
+    }, {
+        "disc": "Latitude 64 Jade",
+        "data": "359;-33;31;F"
+    }, {
+        "disc": "Latitude 64 Mace",
+        "data": "299;-4;44;M"
+    }, {
+        "disc": "Latitude 64 Medius",
+        "data": "326;-14;49;M"
+    }, {
+        "disc": "Latitude 64 Mercy",
+        "data": "251;0;22;P"
+    },
+    {
+        "disc": "Latitude 64 Mirus",
+        "data": "394;-16;58;D"
+    }, {
+        "disc": "Latitude 64 Missilen",
+        "data": "446;9;79;D"
+    }, {
+        "disc": "Latitude 64 Pain",
+        "data": "284;0;36;M"
+    }, {
+        "disc": "Latitude 64 Pearl",
+        "data": "290;-55;23;M"
+    }, {
+        "disc": "Latitude 64 Primitus",
+        "data": "371;0;67;D"
+    },
+    {
+        "disc": "Latitude 64 Pure",
+        "data": "261;-4;6;P"
+    }, {
+        "disc": "Latitude 64 Riot",
+        "data": "405;-19;43;D"
+    }, {
+        "disc": "Latitude 64 River",
+        "data": "351;-30;28;F"
+    }, {
+        "disc": "Latitude 64 Ruby",
+        "data": "267;-50;13;P"
+    }, {
+        "disc": "Latitude 64 Saint",
+        "data": "375;-19;40;D"
+    },
+    {
+        "disc": "Latitude 64 Saint Pro",
+        "data": "357;0;71;D"
+    }, {
+        "disc": "Latitude 64 Scythe",
+        "data": "411;6;78;D"
+    }, {
+        "disc": "Latitude 64 Sinus",
+        "data": "242;0;52;P"
+    }, {
+        "disc": "Latitude 64 Spike",
+        "data": "270;-20;22;P"
+    }, {
+        "disc": "Latitude 64 Stiletto",
+        "data": "416;14;95;D"
+    },
+    {
+        "disc": "Latitude 64 Striker",
+        "data": "382;-14;38;D"
+    }, {
+        "disc": "Latitude 64 Trident",
+        "data": "313;-2;91;F"
+    }, {
+        "disc": "Latitude 64 Villain",
+        "data": "415;-4;71;D"
+    }, {
+        "disc": "Latitude 64 Vision",
+        "data": "368;-38;50;F"
+    }, {
+        "disc": "Latitude 64 XXX",
+        "data": "331;9;89;F"
+    },
+    {
+        "disc": "Legacy Bandit",
+        "data": "372;-38;21;D"
+    }, {
+        "disc": "Legacy Cannon",
+        "data": "456;-45;50;D"
+    }, {
+        "disc": "Legacy Clozer",
+        "data": "247;0;36;P"
+    }, {
+        "disc": "Legacy Clutch",
+        "data": "249;-4;24;P"
+    }, {
+        "disc": "Legacy Gauge",
+        "data": "296;-9;21;M"
+    },
+    {
+        "disc": "Legacy Ghost",
+        "data": "286;-4;50;M"
+    }, {
+        "disc": "Legacy Hunter",
+        "data": "243;-3;3;P"
+    }, {
+        "disc": "Legacy Mongoose",
+        "data": "371;-54;19;D"
+    }, {
+        "disc": "Legacy Outlaw",
+        "data": "417;-19;58;D"
+    }, {
+        "disc": "Legacy Patriot",
+        "data": "351;-35;26;F"
+    }, {
+        "disc": "Legacy Rampage",
+        "data": "456;-17;77;D"
+    }, {
+        "disc": "Legacy Rival",
+        "data": "351;-4;40;F"
+    }, {
+        "disc": "Lightning #1 Driver",
+        "data": "335;-37;41;F"
+    }, {
+        "disc": "Lightning #1 Flyer",
+        "data": "352;-15;41;D"
+    }, {
+        "disc": "Lightning #1 Helix",
+        "data": "347;-19;57;D"
+    }, {
+        "disc": "Lightning #1 Hookshot",
+        "data": "305;-9;56;F"
+    }, {
+        "disc": "Lightning #1 Hyzer",
+        "data": "317;0;75;F"
+    }, {
+        "disc": "Lightning #1 Roller",
+        "data": "330;-25;18;F"
+    }, {
+        "disc": "Lightning #1 Slice",
+        "data": "325;-50;28;F"
+    }, {
+        "disc": "Lightning #2 Driver",
+        "data": "341;-18;56;F"
+    }, {
+        "disc": "Lightning #2 Flyer",
+        "data": "348;-25;44;D"
+    }, {
+        "disc": "Lightning #2 Helix",
+        "data": "363;-15;51;D"
+    }, {
+        "disc": "Lightning #2 Hookshot",
+        "data": "293;-13;55;M"
+    }, {
+        "disc": "Lightning #2 Hyzer",
+        "data": "288;18;74;M"
+    }, {
+        "disc": "Lightning #2 Putter",
+        "data": "227;-35;17;P"
+    }, {
+        "disc": "Lightning #2 Roller",
+        "data": "305;-18;56;F"
+    }, {
+        "disc": "Lightning #2 Slice",
+        "data": "314;-56;14;F"
+    }, {
+        "disc": "Lightning #2 Upshot",
+        "data": "247;-18;18;M"
+    }, {
+        "disc": "Lightning #3 Driver",
+        "data": "324;-28;56;F"
+    }, {
+        "disc": "Lightning #3 Flyer",
+        "data": "314;-28;37;F"
+    }, {
+        "disc": "Lightning #3 Hookshot",
+        "data": "281;-9;36;M"
+    }, {
+        "disc": "Lightning #3 Hyzer",
+        "data": "279;0;73;M"
+    }, {
+        "disc": "Lightning #3 Slice",
+        "data": "292;-23;37;M"
+    }, {
+        "disc": "Lightning #4 Driver",
+        "data": "334;-28;56;F"
+    }, {
+        "disc": "Lightning Driver",
+        "data": "345;-19;57;D"
+    }, {
+        "disc": "Lightning K-2",
+        "data": "276;-18;55;M"
+    }, {
+        "disc": "Lightning MX-1",
+        "data": "403;-39;58;D"
+    }, {
+        "disc": "Lightning Rubber Putter",
+        "data": "256;-18;18;P"
+    }, {
+        "disc": "Lightning U-2",
+        "data": "243;-18;18;P"
+    }, {
+        "disc": "Lightning Upshot",
+        "data": "240;-36;0;P"
+    }, {
+        "disc": "Millennium Aries",
+        "data": "424;-49;39;D"
+    }, {
+        "disc": "Millennium Astra",
+        "data": "416;-44;44;D"
+    }, {
+        "disc": "Millennium Astra-X",
+        "data": "401;-29;48;D"
+    }, {
+        "disc": "Millennium Aurora MF",
+        "data": "281;0;36;M"
+    }, {
+        "disc": "Millennium Aurora MS",
+        "data": "285;-13;13;M"
+    }, {
+        "disc": "Millennium EXP1",
+        "data": "368;19;76;D"
+    }, {
+        "disc": "Millennium JLS",
+        "data": "362;-33;35;F"
+    }, {
+        "disc": "Millennium Omega AP",
+        "data": "245;-12;18;P"
+    }, {
+        "disc": "Millennium Omega Big Bead",
+        "data": "246;-3;36;P"
+    }, {
+        "disc": "Millennium Omega Super Soft Putter",
+        "data": "247;-18;20;P"
+    }, {
+        "disc": "Millennium Orion LF",
+        "data": "384;-16;48;D"
+    }, {
+        "disc": "Millennium Orion LS",
+        "data": "385;-31;38;D"
+    }, {
+        "disc": "Millennium Polaris LF",
+        "data": "357;-28;47;F"
+    }, {
+        "disc": "Millennium Polaris LS",
+        "data": "341;-33;28;F"
+    }, {
+        "disc": "Millennium Quasar",
+        "data": "443;-12;72;D"
+    }, {
+        "disc": "Millennium Scorpius",
+        "data": "431;-12;59;D"
+    }, {
+        "disc": "Millennium Sentinel MF",
+        "data": "291;0;69;M"
+    }, {
+        "disc": "Millennium Tachyon LF",
+        "data": "306;25;91;F"
+    }, {
+        "disc": "Millennium Tachyon LS",
+        "data": "309;-24;48;F"
+    }, {
+        "disc": "MVP Amp",
+        "data": "368;-36;28;F"
+    }, {
+        "disc": "MVP Anode",
+        "data": "259;-10;10;P"
+    }, {
+        "disc": "MVP Atom",
+        "data": "252;-9;4;P"
+    }, {
+        "disc": "MVP Axis",
+        "data": "296;-18;24;M"
+    }, {
+        "disc": "MVP Impulse",
+        "data": "386;-62;24;D"
+    }, {
+        "disc": "MVP Inertia",
+        "data": "408;-44;42;D"
+    }, {
+        "disc": "MVP Ion",
+        "data": "259;0;24;P"
+    }, {
+        "disc": "MVP Motion",
+        "data": "379;0;67;D"
+    }, {
+        "disc": "MVP Resistor",
+        "data": "337;0;57;F"
+    }, {
+        "disc": "MVP Servo",
+        "data": "339;-11;49;F"
+    }, {
+        "disc": "MVP Shock",
+        "data": "358;-4;61;F"
+    }, {
+        "disc": "MVP Switch",
+        "data": "358;-23;38;F"
+    }, {
+        "disc": "MVP Tangent",
+        "data": "294;-27;22;M"
+    }, {
+        "disc": "MVP Tensor",
+        "data": "292;2;55;M"
+    }, {
+        "disc": "MVP Tesla",
+        "data": "396;-14;48;D"
+    }, {
+        "disc": "MVP Vector",
+        "data": "293;0;52;M"
+    }, {
+        "disc": "MVP Volt",
+        "data": "374;-25;45;F"
+    }, {
+        "disc": "Obsidian Discs Splinter",
+        "data": "255;0;45;P"
+    }, {
+        "disc": "Pacific Cycle Mercury",
+        "data": "228;-22;4;P"
+    }, {
+        "disc": "Pacific Cycle Pluto",
+        "data": "292;-55;13;F"
+    }, {
+        "disc": "Pacific Cycle Saturn",
+        "data": "288;-47;13;M"
+    }, {
+        "disc": "Paradigm Bird-Dog",
+        "data": "240;0;36;P"
+    }, {
+        "disc": "Paradigm Terrapin",
+        "data": "276;0;64;M"
+    },
+    {
+        "disc": "Paradigm Tiger",
+        "data": "332;0;56;F"
+    }, {
+        "disc": "Prodigy Disc D1",
+        "data": "435;-1;73;D"
+    }, {
+        "disc": "Prodigy Disc D2",
+        "data": "435;-16;55;D"
+    }, {
+        "disc": "Prodigy Disc D3",
+        "data": "432;-31;47;D"
+    }, {
+        "disc": "Prodigy Disc D4",
+        "data": "434;-52;44;D"
+    },
+    {
+        "disc": "Prodigy Disc D5",
+        "data": "439;-62;50;D"
+    }, {
+        "disc": "Prodigy Disc F1",
+        "data": "334;2;76;F"
+    }, {
+        "disc": "Prodigy Disc F2",
+        "data": "335;-15;56;F"
+    }, {
+        "disc": "Prodigy Disc F3",
+        "data": "337;-34;42;F"
+    }, {
+        "disc": "Prodigy Disc F5",
+        "data": "345;-9;42;F"
+    }, {
+        "disc": "Prodigy Disc F7",
+        "data": "336;-54;23;F"
+    }, {
+        "disc": "Prodigy Disc H1",
+        "data": "379;19;77;D"
+    }, {
+        "disc": "Prodigy Disc H2",
+        "data": "384;0;58;D"
+    }, {
+        "disc": "Prodigy Disc H3",
+        "data": "383;-19;58;D"
+    }, {
+        "disc": "Prodigy Disc H4",
+        "data": "385;-33;58;D"
+    }, {
+        "disc": "Prodigy Disc M1",
+        "data": "286;0;53;M"
+    }, {
+        "disc": "Prodigy Disc M2",
+        "data": "293;-6;43;M"
+    }, {
+        "disc": "Prodigy Disc M3",
+        "data": "295;-21;27;M"
+    }, {
+        "disc": "Prodigy Disc M4",
+        "data": "295;-31;24;M"
+    }, {
+        "disc": "Prodigy Disc M5",
+        "data": "290;-37;27;M"
+    }, {
+        "disc": "Prodigy Disc PA1",
+        "data": "246;0;42;P"
+    }, {
+        "disc": "Prodigy Disc PA2",
+        "data": "247;-4;26;P"
+    }, {
+        "disc": "Prodigy Disc PA3",
+        "data": "244;-4;29;P"
+    }, {
+        "disc": "Prodigy Disc PA4",
+        "data": "246;-22;21;P"
+    }, {
+        "disc": "Prodigy Disc X1",
+        "data": "402;13;81;D"
+    }, {
+        "disc": "Prodiscus JOKERi",
+        "data": "278;0;39;P"
+    }, {
+        "disc": "Prodiscus LASERi",
+        "data": "361;-15;44;F"
+    }, {
+        "disc": "Prodiscus LEGENDa",
+        "data": "420;-9;52;D"
+    }, {
+        "disc": "Prodiscus MIDARi",
+        "data": "298;-15;40;M"
+    }, {
+        "disc": "Prodiscus RAZERi",
+        "data": "417;-19;58;D"
+    }, {
+        "disc": "Prodiscus RESPECTi",
+        "data": "350;0;41;D"
+    }, {
+        "disc": "Prodiscus SLAIDi",
+        "data": "416;-13;55;D"
+    }, {
+        "disc": "Prodiscus Sparta",
+        "data": "279;0;18;P"
+    }, {
+        "disc": "Prodiscus Titan",
+        "data": "381;0;58;D"
+    }, {
+        "disc": "Quest AT 100 M Lazer",
+        "data": "379;-38;38;F"
+    }, {
+        "disc": "Quest AT 10 M Brick",
+        "data": "226;-8;11;P"
+    }, {
+        "disc": "Quest AT 10 M Crossfire",
+        "data": "226;-11;17;P"
+    }, {
+        "disc": "Quest AT Backbone",
+        "data": "307;-18;35;M"
+    }, {
+        "disc": "Quest AT Classic Inferno",
+        "data": "423;-49;39;D"
+    }, {
+        "disc": "Quest AT Crossfire",
+        "data": "263;-24;30;P"
+    }, {
+        "disc": "Quest AT Defender",
+        "data": "383;-51;22;D"
+    }, {
+        "disc": "Quest AT Double D",
+        "data": "385;-7;79;D"
+    }, {
+        "disc": "Quest AT Inferno",
+        "data": "401;-34;24;D"
+    }, {
+        "disc": "Quest AT Odyssey Control Driver",
+        "data": "304;-18;27;F"
+    }, {
+        "disc": "Quest AT Odyssey Midrange and Approach",
+        "data": "307;-51;23;M"
+    }, {
+        "disc": "Quest AT Odyssey Power Driver",
+        "data": "369;-28;48;D"
+    }, {
+        "disc": "Quest AT Odyssey True Line Putter",
+        "data": "238;-18;45;P"
+    }, {
+        "disc": "Quest AT Odyssey Ultra Long-Range Driver",
+        "data": "368;-38;35;D"
+    }, {
+        "disc": "Quest AT Raging Inferno",
+        "data": "407;-4;58;D"
+    }, {
+        "disc": "Quest AT Raging Inferno DT",
+        "data": "417;-27;51;D"
+    }, {
+        "disc": "Quest AT Rock-It",
+        "data": "298;-41;16;M"
+    }, {
+        "disc": "Quest AT Scorcher",
+        "data": "368;12;88;D"
+    }, {
+        "disc": "Quest AT Scream",
+        "data": "389;-19;24;D"
+    }, {
+        "disc": "Quest AT Scream DT",
+        "data": "378;-53;24;D"
+    }, {
+        "disc": "Quest AT Scream Max",
+        "data": "371;19;57;D"
+    }, {
+        "disc": "Quest AT T-Bone",
+        "data": "356;-19;21;F"
+    }, {
+        "disc": "Quest AT Terminator",
+        "data": "443;-39;89;D"
+    }, {
+        "disc": "Quest AT The Wheel",
+        "data": "239;-6;36;P"
+    }, {
+        "disc": "Quest AT Turbo Putt",
+        "data": "226;-32;17;P"
+    }, {
+        "disc": "Quest AT Wildfire",
+        "data": "306;-49;33;M"
+    }, {
+        "disc": "Reptilian Disc Golf Scale",
+        "data": "245;0;54;P"
+    }, {
+        "disc": "Reptilian Disc Golf Serpent",
+        "data": "258;-9;18;P"
+    }, {
+        "disc": "RIP Ballistic",
+        "data": "412;-39;58;D"
+    }, {
+        "disc": "RIP Grabboid",
+        "data": "259;4;54;P"
+    }, {
+        "disc": "RIP Relic",
+        "data": "257;-27;36;P"
+    }, {
+        "disc": "Salient Discs Antidote",
+        "data": "290;-41;18;M"
+    }, {
+        "disc": "Salient Discs Backdraft",
+        "data": "417;-39;39;D"
+    }, {
+        "disc": "Salient Discs Lock Jaw",
+        "data": "228;-1;1;P"
+    }, {
+        "disc": "Salient Discs Napalm",
+        "data": "402;-19;19;D"
+    }, {
+        "disc": "Salient Discs Prometheus",
+        "data": "411;-19;14;D"
+    }, {
+        "disc": "Salient Discs Reign",
+        "data": "437;0;39;D"
+    }, {
+        "disc": "Salient Discs Touch",
+        "data": "241;0;18;P"
+    }, {
+        "disc": "Salient Discs Vaccine",
+        "data": "257;0;36;M"
+    }, {
+        "disc": "Salient Discs Vein",
+        "data": "347;0;38;F"
+    }, {
+        "disc": "Skyiron Flagship",
+        "data": "396;-58;38;D"
+    }, {
+        "disc": "Skyquest L13",
+        "data": "380;-57;38;D"
+    }, {
+        "disc": "Skyquest Medusa",
+        "data": "393;-38;38;D"
+    }, {
+        "disc": "Snap Disc Helios",
+        "data": "394;-48;32;D"
+    }, {
+        "disc": "Snap Disc Whitler",
+        "data": "241;-36;15;P"
+    }, {
+        "disc": "UB Disc Golf Lex",
+        "data": "239;0;18;P"
+    }, {
+        "disc": "UB Disc Golf Monstrum",
+        "data": "411;-9;58;D"
+    }, {
+        "disc": "UB Disc Golf Procul",
+        "data": "402;-48;39;D"
+    }, {
+        "disc": "Vibram Ascent",
+        "data": "349;-3;52;F"
+    }, {
+        "disc": "Vibram Ibex",
+        "data": "298;-11;23;M"
+    }, {
+        "disc": "Vibram Lace",
+        "data": "444;-20;53;D"
+    }, {
+        "disc": "Vibram Obex",
+        "data": "294;0;44;M"
+    }, {
+        "disc": "Vibram O-Lace",
+        "data": "425;-4;70;D"
+    }, {
+        "disc": "Vibram Ridge",
+        "data": "246;0;26;P"
+    }, {
+        "disc": "Vibram Solace",
+        "data": "426;-4;75;D"
+    }, {
+        "disc": "Vibram Sole",
+        "data": "247;0;34;P"
+    }, {
+        "disc": "Vibram Summit",
+        "data": "249;-19;7;P"
+    }, {
+        "disc": "Vibram Trak",
+        "data": "343;-19;34;F"
+    }, {
+        "disc": "Vibram unLace",
+        "data": "439;-60;26;D"
+    }, {
+        "disc": "Vibram VP",
+        "data": "244;0;52;P"
+    }, {
+        "disc": "Westside Bard",
+        "data": "291;18;37;M"
+    }, {
+        "disc": "Westside Boatman",
+        "data": "409;0;41;D"
+    }, {
+        "disc": "Westside Giant",
+        "data": "433;7;74;D"
+    }, {
+        "disc": "Westside Harp",
+        "data": "268;2;55;P"
+    }, {
+        "disc": "Westside Hatchet",
+        "data": "371;-42;34;F"
+    }, {
+        "disc": "Westside King",
+        "data": "455;-24;77;D"
+    }, {
+        "disc": "Westside Northman",
+        "data": "385;-19;43;D"
+    }, {
+        "disc": "Westside Seer",
+        "data": "332;-18;37;F"
+    }, {
+        "disc": "Westside Shield",
+        "data": "260;0;18;P"
+    }, {
+        "disc": "Westside Sorcerer",
+        "data": "440;-8;43;D"
+    }, {
+        "disc": "Westside Stag",
+        "data": "361;-4;52;F"
+    }, {
+        "disc": "Westside Swan 1",
+        "data": "257;-21;6;P"
+    }, {
+        "disc": "Westside Swan 1 Reborn",
+        "data": "258;-18;0;P"
+    }, {
+        "disc": "Westside Swan 2",
+        "data": "257;-30;6;P"
+    }, {
+        "disc": "Westside Sword",
+        "data": "431;-7;44;D"
+    }, {
+        "disc": "Westside Tursas",
+        "data": "297;-53;18;M"
+    }, {
+        "disc": "Westside Underworld",
+        "data": "347;-54;26;F"
+    }, {
+        "disc": "Westside Warship",
+        "data": "314;-9;25;M"
+    }, {
+        "disc": "Westside World",
+        "data": "431;16;82;D"
+    }, {
+        "disc": "Wham-O 86 Softie",
+        "data": "232;-36;18;P"
+    }, {
+        "disc": "Wham-O Fairway Driver",
+        "data": "312;-28;18;F"
+    }, {
+        "disc": "Wham-O Mid Range Approach",
+        "data": "268;-4;27;M"
+    }, {
+        "disc": "Wham-O Putter",
+        "data": "248;0;18;P"
+    }, {
+        "disc": "Wham-O Touchline Bank",
+        "data": "279;-36;36;F"
+    }, {
+        "disc": "Wham-O Touchline Over",
+        "data": "335;-28;47;F"
+    }, {
+        "disc": "Wham-O Touchline Putter",
+        "data": "235;-36;18;P"
+    }, {
+        "disc": "Wham-O Touchline True",
+        "data": "280;-18;36;M"
+    }, {
+        "disc": "Wham-O Touchline Under",
+        "data": "366;-38;38;D"
+    }, {
+        "disc": "YiKun Claws",
+        "data": "236;0;13;P"
+    }, {
+        "disc": "YiKun DaE",
+        "data": "414;0;63;D"
+    }, {
+        "disc": "YiKun Gou",
+        "data": "348;-66;19;F"
+    }, {
+        "disc": "YiKun Gui",
+        "data": "243;0;40;P"
+    }, {
+        "disc": "YiKun Hu",
+        "data": "365;-38;38;F"
+    }, {
+        "disc": "YiKun Jiao",
+        "data": "314;-37;28;F"
+    }, {
+        "disc": "YiKun Jun",
+        "data": "425;-14;49;D"
+    }, {
+        "disc": "YiKun View",
+        "data": "324;-18;42;F"
+    }, {
+        "disc": "YiKun Wei",
+        "data": "382;-48;38;D"
+    }, {
+        "disc": "YiKun Wings",
+        "data": "260;0;36;M"
+    }, {
+        "disc": "YiKun Yao",
+        "data": "282;0;46;M"
+    }
+]
