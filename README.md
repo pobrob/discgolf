@@ -1,6 +1,6 @@
 # discgolf
 
-> A disc golf simulator based on work by http://discpath.haxor.fi/ .  Converting UI to vuejs
+> A disc golf simulator based on work by http://discpath.haxor.fi/ .  Converting the UI to vuejs
 
 ## Build Setup
 
