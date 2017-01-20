@@ -14,8 +14,12 @@
                     <br/><br/>Disc flight data is by <a target="_blank" href="http://www.inboundsdiscgolf.com/">inbounds Disc Golf</a>.<br/><br/>
                 </div>
 
-                
 
+                <div style="width:350px;float:left;">
+                <canvas style="border: 1px solid #000" id="splinecanvas" width="350" height="550"></canvas>
+                <div style="clear:both;"></div>
+
+                </div>
                 <div style="min-height: 550px;width:400px;float:right;border-left: 1px dotted #777; padding-left: 8px; margin-left: 8px;">
 
                     <span style="font-size:1.3em;font-weight:bold;">Discs in bag</span><br/>
