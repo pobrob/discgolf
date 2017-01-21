@@ -1,24 +1,71 @@
 <template lang="html">
-  <div class="container">
+  <div class="container ">
     <div class="panel panel-default">
       <div class="panel-heading">
         <slot></slot>
       </div>
       <div class="panel-body">
         <ul class="list-group">
-            <li  v-for="disc in discs" class="list-group-item">{{disc.disc}}</li>
+            <li  v-for="disc in discs" class="list-group-item disc">
+              <input type="checkbox"/>
+              {{disc.disc}}
+              <select v-model:value='disc.wear'>
+                <option v-for="level in wearLevels" :value='level'>{{level}}/10</option>
+              </select>
+              <button @click="removeDisc(disc)">Remove</button>
+            </li>
           </ul>
       </div>
+    </div>
+    <div>
+      <button @click="addDiscToBag();" style="float:right;">Add to bag</button>
+      <select style="width:76%;float:left;" id="disc" v-model="selectedDisc">
+      <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance.data"  >{{discInstance.disc}}</option></select>
+      <div style="clear:both;"></div>
     </div>
 </div>
 </template>
 
 <script>
 export default {
-    props: ['discs']
-}
+    data() {
+        return {
+            wearLevels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+            wear: 10,
+            discdata: [],
+            selectedDisc: {},
+            discFilter: ''
+        }
+    },
+    props: ['discs'],
+    methods: {
+        removeDisc(disc) {
+            console.log(disc);
+            this.discs.splice(this.discs.indexOf(disc), 1);
+            alert("removed");
+        },
+        addDiscToBag() {
+            alert("adding disc");
+        },
+        containsFilter(value) {
+            return value.disc.toLowerCase().indexOf(this.discFilter.toLowerCase()) > -1;
+        }
+    },
+    computed: {
+        filteredDiscs() {
+            return this.discdata.filter(this.containsFilter)
+        }
+      },
+        mounted() {
+            var self = this;
+            $.getJSON("./discdata.json", function(json) {
+                self.discdata = json;
+            });
+        }
+    }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+  .disc {text-align: left;}
 
 </style>
