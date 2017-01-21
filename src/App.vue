@@ -1,20 +1,17 @@
 <template>
 <div id="app">
     <h1>{{ msg }}</h1>
-    <disc-discSelector></disc-discSelector>
-    <disc-image></disc-image>
+
     <disc-flightPath></disc-flightPath>
 </template>
 
 <script>
-import DiscSelector from './components/DiscSelector.vue';
-import DiscImage from './components/DiscImage.vue';
+
 import FlightPath from './components/FlightPath.vue';
 export default {
     name: 'app',
     components: {
-        'disc-discSelector': DiscSelector,
-        'disc-image': DiscImage,
+
         'disc-flightPath': FlightPath
     },
     data() {

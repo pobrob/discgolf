@@ -1,6 +1,7 @@
 <template>
 <div>
     <div style="width:100%">
+      <bag :discs='discs'>test</bag>
         <div style="width:800px;margin-left:auto;margin-right:auto;background:#fff;">
 
             <div style="width:768px;margin-left:auto;margin-right:auto;padding-top:8px;padding-bottom:64px;" class="header">
@@ -107,11 +108,13 @@
 </div>
 </template>
 <script>
+import Bag from './Bag.vue';
 export default {
 
     data() {
         return {
             "imageURL": "http://ind02.inboundsdiscgolf.com/2380596.png",
+            "discs": ['a','b','c'],
             "discdata": [],
             "selectedDisc": '',
             "discFilter": '',
@@ -123,7 +126,6 @@ export default {
             "liecircle": ''
         }
     },
-    props: ['speed', 'glide', 'turn', 'fade'],
     methods: {
         drawPath() {
 
@@ -188,6 +190,9 @@ export default {
     mounted() {
 
         var self = this;
+        if (localStorage["bag"]) {
+            this.discs = JSON.parse(localStorage["bag"]);
+          }
         $.getJSON("./discdata.json", function(json) {
             self.discdata = json;
         });
@@ -199,16 +204,16 @@ export default {
         if (localStorage["lie-distance"]) this.liedistance = localStorage["lie-distance"];
         if (localStorage["lie-circle"]) this.liecircle = localStorage["lie-circle"];
 
+    },
+    components : {
+      'bag': Bag
     }
 }
 
-
-console.log(this);
 var yscale = 2.5,
     xscale = 0.7;
 var canvas;
 var pathBuffer, lieBuffer, outlineBuffer;
-
 
 // rgb spline points
 var spr = [0, 0, 0, 0, 0, 0, 255, 255];
