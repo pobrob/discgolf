@@ -40,7 +40,6 @@ export default {
     props: ['discs'],
     methods: {
         removeDisc(disc) {
-            console.log(disc);
             this.discs.splice(this.discs.indexOf(disc), 1);
             alert("removed");
         },
