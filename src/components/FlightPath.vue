@@ -2,6 +2,7 @@
 <div>
     <div style="width:100%">
       <bag :discs='discs'>Discs In Bag</bag>
+      <pathViewControl></pathViewControl>
         <div style="width:800px;margin-left:auto;margin-right:auto;background:#fff;">
 
             <div style="width:768px;margin-left:auto;margin-right:auto;padding-top:8px;padding-bottom:64px;" class="header">
@@ -109,6 +110,7 @@
 </template>
 <script>
 import Bag from './Bag.vue';
+import PathViewControl from './PathViewControl.vue';
 export default {
 
     data() {
@@ -206,7 +208,8 @@ export default {
 
     },
     components : {
-      'bag': Bag
+      'bag': Bag,
+      'pathViewControl': PathViewControl
     }
 }
 
