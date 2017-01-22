@@ -20,7 +20,7 @@
     <div>
       <button @click="addDiscToBag();" style="float:right;">Add to bag</button>
       <select style="width:76%;float:left;" id="disc" v-model="selectedDisc">
-      <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance.data"  >{{discInstance.disc}}</option></select>
+      <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance"  >{{discInstance.disc}}</option></select>
       <div style="clear:both;"></div>
     </div>
 </div>
@@ -48,6 +48,12 @@ export default {
             //var d = $("#disc").val().split(';');
             //var dn = $("#disc option:selected").html();
             //addDisc(d, dn, 10, true);
+            var addedDisc = {wear: 10,
+            enabled: true,
+          data: this.selectedDisc.data.split(';'),
+            disc: this.selectedDisc.disc};
+
+            this.discs.push(addedDisc);
             this.updateBag();
         },
         containsFilter(value) {
