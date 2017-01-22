@@ -23,10 +23,12 @@
       <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance"  >{{discInstance.disc}}</option></select>
       <div style="clear:both;"></div>
     </div>
+    <importExport></importExport>
 </div>
 </template>
 
 <script>
+import ImportExport from './ImportExport.vue';
 export default {
     data() {
         return {
@@ -77,6 +79,9 @@ export default {
         $.getJSON("./discdata.json", function(json) {
             self.discdata = json;
         });
+    },
+    components : {
+      'importExport': ImportExport
     }
 }
 </script>
