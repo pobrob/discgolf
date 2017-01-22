@@ -41,27 +41,38 @@ export default {
     methods: {
         removeDisc(disc) {
             this.discs.splice(this.discs.indexOf(disc), 1);
-            alert("removed");
+            this.updateBag();
+            alert("removed" + disc.disc);
         },
         addDiscToBag() {
-            alert("adding disc");
+            //var d = $("#disc").val().split(';');
+            //var dn = $("#disc option:selected").html();
+            //addDisc(d, dn, 10, true);
+            this.updateBag();
         },
         containsFilter(value) {
             return value.disc.toLowerCase().indexOf(this.discFilter.toLowerCase()) > -1;
+        },
+        updateBag() {
+            if (typeof(Storage) !== "undefined") {
+                localStorage["bag"] = JSON.stringify(this.discs);
+            }
+            //updateCanvas();
+            //return bag;
         }
     },
     computed: {
         filteredDiscs() {
             return this.discdata.filter(this.containsFilter)
         }
-      },
-        mounted() {
-            var self = this;
-            $.getJSON("./discdata.json", function(json) {
-                self.discdata = json;
-            });
-        }
+    },
+    mounted() {
+        var self = this;
+        $.getJSON("./discdata.json", function(json) {
+            self.discdata = json;
+        });
     }
+}
 </script>
 
 <style lang="css" scoped>

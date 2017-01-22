@@ -114,7 +114,7 @@ export default {
     data() {
         return {
             "imageURL": "http://ind02.inboundsdiscgolf.com/2380596.png",
-            "discs": ['a','b','c'],
+            "discs": [],
             "discdata": [],
             "selectedDisc": '',
             "discFilter": '',
