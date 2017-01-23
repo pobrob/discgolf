@@ -1,9 +1,9 @@
 <template>
 <div>
     <div style="width:100%">
-      <bag :discs='discs'>Discs In Bag</bag>
-      <pathViewControl></pathViewControl>
-      <discControl></discControl>
+        <bag :discs='discs'>Discs In Bag</bag>
+        <pathViewControl></pathViewControl>
+        <discControl></discControl>
         <div style="width:800px;margin-left:auto;margin-right:auto;background:#fff;">
 
             <div style="width:768px;margin-left:auto;margin-right:auto;padding-top:8px;padding-bottom:64px;" class="header">
@@ -19,8 +19,8 @@
 
 
                 <div style="width:350px;float:left;">
-                <canvas style="border: 1px solid #000" id="splinecanvas" width="350" height="550"></canvas>
-                <div style="clear:both;"></div>
+                    <canvas style="border: 1px solid #000" id="splinecanvas" width="350" height="550"></canvas>
+                    <div style="clear:both;"></div>
 
                 </div>
                 <div style="min-height: 550px;width:400px;float:right;border-left: 1px dotted #777; padding-left: 8px; margin-left: 8px;">
@@ -196,7 +196,7 @@ export default {
         var self = this;
         if (localStorage["bag"]) {
             this.discs = JSON.parse(localStorage["bag"]);
-          }
+        }
         $.getJSON("./discdata.json", function(json) {
             self.discdata = json;
         });
@@ -209,10 +209,10 @@ export default {
         if (localStorage["lie-circle"]) this.liecircle = localStorage["lie-circle"];
 
     },
-    components : {
-      'bag': Bag,
-      'pathViewControl': PathViewControl,
-      'discControl': DiscControl
+    components: {
+        'bag': Bag,
+        'pathViewControl': PathViewControl,
+        'discControl': DiscControl
     }
 }
 
