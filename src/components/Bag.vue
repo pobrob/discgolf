@@ -6,23 +6,24 @@
       </div>
       <div class="panel-body">
         <ul class="list-group">
-            <li  v-for="disc in discs" class="list-group-item disc">
-              <input type="checkbox"/>
-              {{disc.disc}}
-              <select v-model:value='disc.wear'>
+            <li  v-for="disc in discs" class="list-group-item disc" >
+              <input type="checkbox" class=form-check-input style="width:40px;float:left;"/>
+              <label style="width:300px;float:left;"">{{disc.disc}}</label>
+              <select v-model:value='disc.wear' class="form-control" style="width:100px;float:left;">
                 <option v-for="level in wearLevels" :value='level'>{{level}}/10</option>
               </select>
-              <button @click="removeDisc(disc)">Remove</button>
+              <button @click="removeDisc(disc)" class="btn btn-primary" >Remove</button>
             </li>
           </ul>
       </div>
+      <div>
+        <button @click="addDiscToBag();" style="float:right;" class="btn btn-primary">Add to bag</button>
+        <select style="width:76%;float:left;"  v-model="selectedDisc" class="form-control">
+        <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance"  >{{discInstance.disc}}</option></select>
+        <div style="clear:both;"></div>
+      </div>
     </div>
-    <div>
-      <button @click="addDiscToBag();" style="float:right;">Add to bag</button>
-      <select style="width:76%;float:left;"  v-model="selectedDisc">
-      <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance"  >{{discInstance.disc}}</option></select>
-      <div style="clear:both;"></div>
-    </div>
+
     <importExport></importExport>
 </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="container">
     <div style="width:100%">
         <bag :discs='discs'>Discs In Bag</bag>
         <pathViewControl></pathViewControl>
