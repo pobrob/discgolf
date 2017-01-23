@@ -19,7 +19,7 @@
     </div>
     <div>
       <button @click="addDiscToBag();" style="float:right;">Add to bag</button>
-      <select style="width:76%;float:left;" id="disc" v-model="selectedDisc">
+      <select style="width:76%;float:left;"  v-model="selectedDisc">
       <option v-for='(discInstance, discIndex) in filteredDiscs' :value="discInstance"  >{{discInstance.disc}}</option></select>
       <div style="clear:both;"></div>
     </div>
@@ -50,10 +50,14 @@ export default {
             //var d = $("#disc").val().split(';');
             //var dn = $("#disc option:selected").html();
             //addDisc(d, dn, 10, true);
-            var addedDisc = {wear: 10,
-            enabled: true,
-          data: this.selectedDisc.data.split(';'),
-            disc: this.selectedDisc.disc};
+            self = this;
+            var addedDisc = {
+                wear: 10,
+                enabled: true,
+                data: self.selectedDisc.data.split(';'),
+                disc: self.selectedDisc.disc
+            };
+            addedDisc
 
             this.discs.push(addedDisc);
             this.updateBag();
@@ -78,10 +82,12 @@ export default {
         var self = this;
         $.getJSON("./discdata.json", function(json) {
             self.discdata = json;
+            self.selectedDisc = self.discdata[0];
         });
+
     },
-    components : {
-      'importExport': ImportExport
+    components: {
+        'importExport': ImportExport
     }
 }
 </script>
