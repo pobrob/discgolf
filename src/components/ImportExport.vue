@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="container">
+  <div >
     <form class = "panel panel-default">
     <div class="panel-heading">Import/export bag:</div>
     <div class="settings toolbox panel-body">
@@ -18,14 +18,14 @@
 
 <script>
 export default {
-  methods: {
-    exportBagJSON(){
+    methods: {
+        exportBagJSON() {
 
-    },
-    importBagJSON(){
+        },
+        importBagJSON() {
 
+        }
     }
-  }
 }
 </script>
 

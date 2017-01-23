@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="container ">
+  <div >
     <div class="panel panel-default">
       <div class="panel-heading">
         <slot></slot>
@@ -8,11 +8,11 @@
         <ul class="list-group">
             <li  v-for="disc in discs" class="list-group-item disc" >
               <input type="checkbox" class=form-check-input style="width:40px;float:left;"/>
-              <label style="width:300px;float:left;"">{{disc.disc}}</label>
-              <select v-model:value='disc.wear' class="form-control" style="width:100px;float:left;">
+              <label style="float:left;">{{disc.disc}}</label>
+              <select v-model:value='disc.wear' class="form-control" style="width:50px">
                 <option v-for="level in wearLevels" :value='level'>{{level}}/10</option>
               </select>
-              <button @click="removeDisc(disc)" class="btn btn-primary" >Remove</button>
+              <button @click="removeDisc(disc)"  class="btn btn-primary" >Remove</button>
             </li>
           </ul>
       </div>

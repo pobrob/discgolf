@@ -1,13 +1,12 @@
 <template>
 <div class="container">
-    <div style="width:100%">
-        <bag :discs='discs'>Discs In Bag</bag>
-        <pathViewControl></pathViewControl>
-        <discControl></discControl>
-        <div style="width:800px;margin-left:auto;margin-right:auto;background:#fff;">
+    <div>
 
-            <div style="width:768px;margin-left:auto;margin-right:auto;padding-top:8px;padding-bottom:64px;" class="header">
-                <div style="width:768px;margin-bottom:16px;margin-left:auto;margin-right:auto;padding-top:4px;padding-bottom:4px;padding-left:4px;background:#333;color:eee;">experimental disc golf flight path visualizer
+
+        <div style="margin-left:auto;margin-right:auto;background:#fff;">
+
+            <div style="margin-left:auto;margin-right:auto;padding-top:8px;padding-bottom:64px;" class="header">
+                <div style="margin-bottom:16px;margin-left:auto;margin-right:auto;padding-top:4px;padding-bottom:4px;padding-left:4px;background:#333;color:eee;">experimental disc golf flight path visualizer
                     <div style="float:right;margin-right:4px;"><a href="http://www.reddit.com/user/tulihauki/">Send feedback</a></div>
                 </div>
 
@@ -17,13 +16,17 @@
                     <br/><br/>Disc flight data is by <a target="_blank" href="http://www.inboundsdiscgolf.com/">inbounds Disc Golf</a>.<br/><br/>
                 </div>
 
-
-                <div style="width:350px;float:left;">
-                    <canvas style="border: 1px solid #000" id="splinecanvas" width="350" height="550"></canvas>
-                    <div style="clear:both;"></div>
-
+                <div>
+                    <div class="col-lg-6 col-md-6 col-sm-8" style="float:left;">
+                        <canvas style="border: 1px solid #000" id="splinecanvas" width="500" height="750"></canvas>
+                        <discControl></discControl>
+                        <pathViewControl></pathViewControl>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <bag :discs='discs'>Discs In Bag</bag>
+                    </div>
                 </div>
-                <div style="min-height: 550px;width:400px;float:right;border-left: 1px dotted #777; padding-left: 8px; margin-left: 8px;">
+                <div style="">
 
                     <span style="font-size:1.3em;font-weight:bold;">Discs in bag</span><br/>
                     <div style="border-top: 1px solid #000;border-bottom: 1px solid #000">
@@ -102,8 +105,8 @@
                     <br/>
                     <span id="debug-area"></span>
                 </div>
-
             </div>
+
 
         </div>
     </div>

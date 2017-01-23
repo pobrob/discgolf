@@ -10,6 +10,7 @@
         <label>Spread:</label>
         <input type="checkbox" v-model="spread" id="fan-power" class="form-check-input"> &nbsp;
       </form-group>
+<div class="row">
       <form-group>
         <label>Paths per disc:</label>
         <select id="paths-shown" v-model="pathsShown" class="form-control">
@@ -18,6 +19,7 @@
           <option value="none">None</option>
         </select> &nbsp; &nbsp;
       </form-group>
+    </div>
       <form-group>
         <label>Labels:</label>
         <input type="checkbox" id="lie-distance" v-model="lieDistance" class="form-check-input"> &nbsp; <b>Circles (10m/15m):</b>
