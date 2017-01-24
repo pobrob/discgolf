@@ -8,13 +8,13 @@
       <div class="row" >
         <div class="col-xs-12 col-sm-8 col-md-6"
           <label>Type:</label>
-          <select id="throw-type" v-model="discThrowType" @change='changeThrowType' class="form-control">
+          <select id="throw-type" v-model:value="discThrowType" @change='changeThrowType' class="form-control">
             <option value="rhbh" >RHBH/LHFH</option>
             <option value="rhfh">RHFH/LHBH</option>
           </select> &nbsp;
           <div class="form-group">
             <label>Power:</label>
-            <input type="range" min="0" max="48" v-model="discPower" step="1"  @change='changePower' class="form-control">
+            <input type="range" min="0" max="48" v-model:value="discPower" step="1"  @change='changePower' class="form-control">
             (<b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
           </div>
         </div>

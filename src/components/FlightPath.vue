@@ -19,12 +19,10 @@
                 <div>
                     <div class="col-lg-6 col-md-6 col-sm-8" style="float:left;">
                         <canvas style="border: 1px solid #000" id="splinecanvas" width="500" height="750"></canvas>
-                        <discControl
-                          :power='power'
-                          :throwType='throwType'
-                          @changeDiscPower='power = $event'
-                          @changeThrowType = 'throwType = $event'
-                          ></discControl>
+                        <discControl :power='power' :throwType='throwType'
+                        @changeDiscPower='power = $event'
+                        @changeThrowType='throwType = $event'>
+                      </discControl>
                         <pathViewControl></pathViewControl>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4">
