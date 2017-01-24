@@ -8,13 +8,13 @@
       <div class="row" >
         <div class="col-xs-12 col-sm-8 col-md-6"
           <label>Type:</label>
-          <select id="throw-type" v-model="throwType" class="form-control">
+          <select id="throw-type" v-model="discThrowType" @change='changeThrowType' class="form-control">
             <option value="rhbh" >RHBH/LHFH</option>
             <option value="rhfh">RHFH/LHBH</option>
           </select> &nbsp;
           <div class="form-group">
             <label>Power:</label>
-            <input type="range" min="0" max="48" v-model="power" step="1" id="power" class="form-control">
+            <input type="range" min="0" max="48" v-model="discPower" step="1"  @change='changePower' class="form-control">
             (<b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
           </div>
         </div>
@@ -28,10 +28,21 @@
 export default {
     data() {
         return {
-            power: 32,
-            throwType: "rhbh"
+          discPower: this.power,
+          discThrowType: this.throwtype
+
         }
-    }
+    },
+      props: ['discs', 'power', 'throwType'],
+      methods: {
+        changePower(event){
+          this.$emit('changeDiscPower', this.discPower);
+        },
+        changeThrowType(event){
+          this.$emit('changeThrowType', this.discThrowType);
+        }
+      }
+
 }
 </script>
 

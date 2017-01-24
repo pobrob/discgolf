@@ -19,7 +19,12 @@
                 <div>
                     <div class="col-lg-6 col-md-6 col-sm-8" style="float:left;">
                         <canvas style="border: 1px solid #000" id="splinecanvas" width="500" height="750"></canvas>
-                        <discControl></discControl>
+                        <discControl
+                          :power='power'
+                          :throwType='throwType'
+                          @changeDiscPower='power = $event'
+                          @changeThrowType = 'throwType = $event'
+                          ></discControl>
                         <pathViewControl></pathViewControl>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4">
@@ -125,8 +130,8 @@ export default {
             "discdata": [],
             "selectedDisc": '',
             "discFilter": '',
-            "throwtype": '',
-            "power": '',
+            "throwType": 'rhbh',
+            "power": 34,
             "fanpower": '',
             "pathsshown": '',
             "liedistance": '',
@@ -204,7 +209,7 @@ export default {
             self.discdata = json;
         });
 
-        if (localStorage["throw-type"]) this.throwtype = localStorage["throw-type"];
+        if (localStorage["throw-type"]) this.throwType = localStorage["throw-type"];
         if (localStorage["power"]) this.power = localStorage["power"];
         if (localStorage["fan-power"]) this.fanpower = localStorage["fan-power"];
         if (localStorage["paths-shown"]) this.pathsshown = localStorage["paths-shown"];
