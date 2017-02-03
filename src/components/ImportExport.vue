@@ -1,12 +1,17 @@
 <template lang="html">
-  <div >
+  <div class='container'>
     <form class = "panel panel-default">
     <div class="panel-heading">Import/export bag:</div>
     <div class="settings toolbox panel-body">
-        <button @click="exportBagJSON(0);" class="btn btn-primary">Export bag as JSON</button> &nbsp;
-        <button @click="exportBagJSON(1);" class="btn btn-primary">Export compressed bag</button> &nbsp; | &nbsp;
-        <button @click="importBagJSON(0);" class="btn btn-primary">Import bag from JSON</button> &nbsp;
-        <button @click="importBagJSON(1);" class="btn btn-primary">Import compressed bag</button>
+      <row>
+        <button @click="exportBagJSON(0);" class="btn btn-primary" style="float:left">Export bag as JSON</button>
+        <button @click="exportBagJSON(1);" class="btn btn-primary" style="float:left">Export compressed bag</button>
+      </row>
+
+      <row>
+        <button @click="importBagJSON(0);" class="btn btn-primary" style="float:left">Import bag from JSON</button> &nbsp;
+        <button @click="importBagJSON(1);" class="btn btn-primary" style="float:left">Import compressed bag</button>
+      </row>
         <br/><br/>
         <textarea style="width:100%;margin-right:8px;" id="bag-raw-data" rows="10" class="form-text"></textarea>
         <br/>
