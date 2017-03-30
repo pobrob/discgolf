@@ -1,4 +1,61 @@
+<style scoped>
+
+img {
+    width: 300px;
+}
+
+body {
+    font: 13px arial;
+    color: #111;
+}
+
+.header a,
+.header a:visited,
+.header a:active {
+    color: #ccf;
+}
+
+.content a,
+.content a:visited,
+.content a:active {
+    color: #77b;
+}
+
+thead.D {
+    background: #eee;
+}
+
+thead.F {
+    background: #edd;
+}
+
+thead.M {
+    background: #dde;
+}
+
+thead.P {
+    background: #ded;
+}
+
+thead {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.toolbox {
+    width: 750px;
+    margin: 0px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    border: 1px dotted #777;
+}
+
+</style>
+
 <template>
+
 <div class="container">
     <div>
 
@@ -13,16 +70,17 @@
                 <div style="margin-bottom: 16px;" class="content">
                     This is an HTML5 experiment for visualising the flight path of golf discs at different wear and throwing power levels. It can also be used to identify where the discs in your bag can potentially overlap. Feel free to play around with it - all feedback
                     is welcome.
-                    <br/><br/>Disc flight data is by <a target="_blank" href="http://www.inboundsdiscgolf.com/">inbounds Disc Golf</a>.<br/><br/>
+                    <br/>
+                    <br/>Disc flight data is by <a target="_blank" href="http://www.inboundsdiscgolf.com/">inbounds Disc Golf</a>.
+                    <br/>
+                    <br/>
                 </div>
 
                 <div>
                     <div class="col-lg-6 col-md-6 col-sm-8" style="float:left;">
                         <canvas style="border: 1px solid #000" id="splinecanvas" width="500" height="750"></canvas>
-                        <discControl :power='power' :throwType='throwType'
-                        @changeDiscPower='power = $event'
-                        @changeThrowType='throwType = $event'>
-                      </discControl>
+                        <discControl :power='power' :throwType='throwType' @changeDiscPower='power = $event' @changeThrowType='throwType = $event'>
+                        </discControl>
                         <pathViewControl></pathViewControl>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4">
@@ -31,7 +89,8 @@
                 </div>
                 <div style="">
 
-                    <span style="font-size:1.3em;font-weight:bold;">Discs in bag</span><br/>
+                    <span style="font-size:1.3em;font-weight:bold;">Discs in bag</span>
+                    <br/>
                     <div style="border-top: 1px solid #000;border-bottom: 1px solid #000">
                         <table style="width:100%" id="bag">
                             <thead class="D">
@@ -68,10 +127,13 @@
 
                         <button @click="addDiscToBag();" style="float:right;">Add to bag</button>
                         <select style="width:76%;float:left;" id="disc" v-model="selectedDisc">
-                        <option v-for='(disc, discIndex) in filteredDiscs' :value="disc.data"  >{{disc.disc}}</option></select>
+                            <option v-for='(disc, discIndex) in filteredDiscs' :value="disc.data">{{disc.disc}}</option>
+                        </select>
                         <div style="clear:both;"></div>
 
-                        <div style="width:100%;float:left;margin-top:3px;">Filter: <input id="discfilter" slze="20" v-model='discFilter' placeholder="Filter list"></div>
+                        <div style="width:100%;float:left;margin-top:3px;">Filter:
+                            <input id="discfilter" slze="20" v-model='discFilter' placeholder="Filter list">
+                        </div>
                         <div style="clear:both;"></div>
                     </div>
 
@@ -81,29 +143,45 @@
                 <div style="clear:both;"></div>
 
                 <br/>
-                <b>Throw:</b><br/>
+                <b>Throw:</b>
+                <br/>
                 <div class="settings toolbox">
-                    <b>Type:</b> <select id="throw-type"><option value="rhbh" selected>RHBH/LHFH</option><option value="rhfh">RHFH/LHBH</option></select> &nbsp;
-                    <b>Power:</b> <input type="range" min="0" max="48" value="32" step="1" id="power"> (<b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
+                    <b>Type:</b>
+                    <select id="throw-type">
+                        <option value="rhbh" selected>RHBH/LHFH</option>
+                        <option value="rhfh">RHFH/LHBH</option>
+                    </select> &nbsp;
+                    <b>Power:</b>
+                    <input type="range" min="0" max="48" value="32" step="1" id="power"> (<b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
                 </div>
 
                 <br/>
-                <b>Display options:</b><br/>
+                <b>Display options:</b>
+                <br/>
                 <div class="settings toolbox">
-                    <b>Spread:</b> <input type="checkbox" checked id="fan-power"> &nbsp;
-                    <b>Paths per disc:</b> <select id="paths-shown"><option value="all">All</option><option value="one" selected>One</option><option value="none">None</option></select> &nbsp; &nbsp; <b>Labels:</b>
-                    <input type="checkbox" id="lie-distance" checked> &nbsp; <b>Circles (10m/15m):</b> <input type="checkbox" id="lie-circle" checked>
+                    <b>Spread:</b>
+                    <input type="checkbox" checked id="fan-power"> &nbsp;
+                    <b>Paths per disc:</b>
+                    <select id="paths-shown">
+                        <option value="all">All</option>
+                        <option value="one" selected>One</option>
+                        <option value="none">None</option>
+                    </select> &nbsp; &nbsp; <b>Labels:</b>
+                    <input type="checkbox" id="lie-distance" checked> &nbsp; <b>Circles (10m/15m):</b>
+                    <input type="checkbox" id="lie-circle" checked>
                     <!-- &nbsp; <b>Debug:</b> <input type="checkbox" id="debug-data"> -->
                 </div>
 
                 <br/>
-                <b>Import/export bag:</b><br/>
+                <b>Import/export bag:</b>
+                <br/>
                 <div class="settings toolbox">
                     <button @click="exportBagJSON(0);">Export bag as JSON</button> &nbsp;
                     <button @click="exportBagJSON(1);">Export compressed bag</button> &nbsp; | &nbsp;
                     <button @click="importBagJSON(0);">Import bag from JSON</button> &nbsp;
                     <button @click="importBagJSON(1);">Import compressed bag</button>
-                    <br/><br/>
+                    <br/>
+                    <br/>
                     <textarea style="width:100%;margin-right:8px;" id="bag-raw-data" rows="10"></textarea>
                     <br/>
                     <span id="debug-area"></span>
@@ -114,112 +192,115 @@
         </div>
     </div>
 </div>
+
 </template>
+
 <script>
+
 import Bag from './Bag.vue';
 import PathViewControl from './PathViewControl.vue';
 import DiscControl from './DiscControl.vue';
 export default {
 
     data() {
-        return {
-            "imageURL": "http://ind02.inboundsdiscgolf.com/2380596.png",
-            "discs": [],
-            "discdata": [],
-            "selectedDisc": '',
-            "discFilter": '',
-            "throwType": 'rhbh',
-            "power": 34,
-            "fanpower": '',
-            "pathsshown": '',
-            "liedistance": '',
-            "liecircle": ''
-        }
-    },
-    methods: {
-        drawPath() {
-
-        },
-        addDiscToBag() {
-            var d = $("#disc").val().split(';');
-            var dn = $("#disc option:selected").html();
-            addDisc(d, dn, 10, true);
-            updateBag();
-        },
-        exportBagJSON(method) {
-            var bag = updateBag();
-            var json;
-            if (method) {
-                json = JSON.stringify(bag);
-                var lzbag = LZString.compressToBase64(json);
-                $("#bag-raw-data").val(lzbag);
-            } else {
-                json = JSON.stringify(bag, null, 2);
-                $("#bag-raw-data").val(json);
+            return {
+                "imageURL": "http://ind02.inboundsdiscgolf.com/2380596.png",
+                "discs": [],
+                "discdata": [],
+                "selectedDisc": '',
+                "discFilter": '',
+                "throwType": 'rhbh',
+                "power": 34,
+                "fanpower": '',
+                "pathsshown": '',
+                "liedistance": '',
+                "liecircle": ''
             }
         },
-        importBagJSON(method) {
-            var json = "";
-            if (method) {
-                var lzb = $("#bag-raw-data").val();
-                json = LZString.decompressFromBase64(lzb);
-            } else {
-                json = $("#bag-raw-data").val();
-            }
-            var ibag = JSON.parse(json);
+        methods: {
+            drawPath() {
 
-            // parse and check if data is valid
-            if (typeof ibag != 'undefined') {
-                $("table#bag tbody").empty();
-                for (key in ibag) {
-                    if (typeof ibag[key].data != 'undefined' &&
-                        typeof ibag[key].disc != 'undefined' &&
-                        typeof ibag[key].wear != 'undefined' &&
-                        typeof ibag[key].enabled != 'undefined')
-                        addDisc(ibag[key].data, ibag[key].disc, ibag[key].wear, ibag[key].enabled);
+                },
+                addDiscToBag() {
+                    var d = $("#disc").val().split(';');
+                    var dn = $("#disc option:selected").html();
+                    addDisc(d, dn, 10, true);
+                    updateBag();
+                },
+                exportBagJSON(method) {
+                    var bag = updateBag();
+                    var json;
+                    if (method) {
+                        json = JSON.stringify(bag);
+                        var lzbag = LZString.compressToBase64(json);
+                        $("#bag-raw-data").val(lzbag);
+                    } else {
+                        json = JSON.stringify(bag, null, 2);
+                        $("#bag-raw-data").val(json);
+                    }
+                },
+                importBagJSON(method) {
+                    var json = "";
+                    if (method) {
+                        var lzb = $("#bag-raw-data").val();
+                        json = LZString.decompressFromBase64(lzb);
+                    } else {
+                        json = $("#bag-raw-data").val();
+                    }
+                    var ibag = JSON.parse(json);
+
+                    // parse and check if data is valid
+                    if (typeof ibag != 'undefined') {
+                        $("table#bag tbody").empty();
+                        for (key in ibag) {
+                            if (typeof ibag[key].data != 'undefined' &&
+                                typeof ibag[key].disc != 'undefined' &&
+                                typeof ibag[key].wear != 'undefined' &&
+                                typeof ibag[key].enabled != 'undefined')
+                                addDisc(ibag[key].data, ibag[key].disc, ibag[key].wear, ibag[key].enabled);
+                        }
+                        updateBag();
+                    }
+                },
+                removeDisc(btn) {
+                    var tr = $(btn).parent().parent();
+                    $(tr).remove();
+                    updateBag();
+                },
+                containsFilter(value) {
+                    return value.disc.toLowerCase().indexOf(this.discFilter.toLowerCase()) > -1;
                 }
-                updateBag();
+        },
+        computed: {
+            filteredDiscs() {
+                return this.discdata.filter(this.containsFilter)
             }
+
+
         },
-        removeDisc(btn) {
-            var tr = $(btn).parent().parent();
-            $(tr).remove();
-            updateBag();
+        mounted() {
+
+            var self = this;
+            if (localStorage["bag"]) {
+                this.discs = JSON.parse(localStorage["bag"]);
+            }
+            $.getJSON("./discdata.json", function(json) {
+                self.discdata = json;
+            });
+
+            if (localStorage["throw-type"]) this.throwType = localStorage["throw-type"];
+            if (localStorage["power"]) this.power = localStorage["power"];
+            if (localStorage["fan-power"]) this.fanpower = localStorage["fan-power"];
+            if (localStorage["paths-shown"]) this.pathsshown = localStorage["paths-shown"];
+            if (localStorage["lie-distance"]) this.liedistance = localStorage["lie-distance"];
+            if (localStorage["lie-circle"]) this.liecircle = localStorage["lie-circle"];
+
         },
-        containsFilter(value) {
-            return value.disc.toLowerCase().indexOf(this.discFilter.toLowerCase()) > -1;
+        components: {
+            'bag': Bag,
+            'pathViewControl': PathViewControl,
+            'discControl': DiscControl
         }
-    },
-    computed: {
-        filteredDiscs() {
-            return this.discdata.filter(this.containsFilter)
-        }
-
-
-    },
-    mounted() {
-
-        var self = this;
-        if (localStorage["bag"]) {
-            this.discs = JSON.parse(localStorage["bag"]);
-        }
-        $.getJSON("./discdata.json", function(json) {
-            self.discdata = json;
-        });
-
-        if (localStorage["throw-type"]) this.throwType = localStorage["throw-type"];
-        if (localStorage["power"]) this.power = localStorage["power"];
-        if (localStorage["fan-power"]) this.fanpower = localStorage["fan-power"];
-        if (localStorage["paths-shown"]) this.pathsshown = localStorage["paths-shown"];
-        if (localStorage["lie-distance"]) this.liedistance = localStorage["lie-distance"];
-        if (localStorage["lie-circle"]) this.liecircle = localStorage["lie-circle"];
-
-    },
-    components: {
-        'bag': Bag,
-        'pathViewControl': PathViewControl,
-        'discControl': DiscControl
-    }
 }
 
 var yscale = 2.5,
@@ -635,58 +716,5 @@ $(document).ready(function() {
     // paint the canvas for the first time
     updateCanvas();
 });
+
 </script>
-
-<style scoped>
-img {
-    width: 300px;
-}
-
-body {
-    font: 13px arial;
-    color: #111;
-}
-
-.header a,
-.header a:visited,
-.header a:active {
-    color: #ccf;
-}
-
-.content a,
-.content a:visited,
-.content a:active {
-    color: #77b;
-}
-
-thead.D {
-    background: #eee;
-}
-
-thead.F {
-    background: #edd;
-}
-
-thead.M {
-    background: #dde;
-}
-
-thead.P {
-    background: #ded;
-}
-
-thead {
-    font-size: 0.8em;
-    color: #777;
-}
-
-.toolbox {
-    width: 750px;
-    margin: 0px;
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-    padding-right: 8px;
-    border: 1px dotted #777;
-}
-</style>
