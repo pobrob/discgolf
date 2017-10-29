@@ -135,7 +135,8 @@ thead {
                     <option value="rhfh">RHFH/LHBH</option>
                   </select> &nbsp;
                   <b>Power:</b>
-                  <input type="range" min="0" max="48" value="32" step="1" id="power"> (<b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
+                  <input type="range" min="0" max="48" value="32" step="1" id="power">
+                   (<b><span id="pwrval"></span>%</b> ofb nominal airspeed required by disc)
                 </div>
                 <br/>
                 <b>Display options:</b>

@@ -36,6 +36,7 @@ a {
     <h1>{{ msg }}</h1>
 
     <disc-flightPath></disc-flightPath>
+  </div>
 
 </template>
 

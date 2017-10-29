@@ -17,7 +17,7 @@
                     <div class="form-group">
                       <label>Power:</label>
                       <input type="range" min="0" max="48" v-model:value="discPower" step="1" @change='changePower' class="form-control"> (
-                      <b><span id="pwrval"></span>%</b> of nominal airspeed required by disc)
+                      <b><span id="pwrval">{{discPower}}</span>%</b> ofa nominal airspeed required by disc)
                     </div>
                   </div>
               </div>
